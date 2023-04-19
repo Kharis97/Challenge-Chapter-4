@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap');
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+nav.back-title{
+    width: 800px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+h1.back{
+    width: 5%;
+    padding: 0px;
+    font-size: 70px;
+    font-weight: bold;
+    color: #724C21;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+img.logo{
+    width: 40px;
+    height: 70px;
+    width: 15%;
+    padding: 20px;
+}
+
+h1.title{
+    width: 70%;
+    font-family: Bebas neue;
+    padding: 20px;
+    color: #F9B23D;
+}
+
+body{
+    font-family: Open Sans;
+    font-size: large;
+    background-color: #9C835F;
+    padding-bottom: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 800px;
+    margin: 0px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section-one{
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.info-player{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+img.rock, img.paper, img.scissor{
+    height: 60px;
+    width: 60px;
+    padding: 20px;
+}
+
+img.rock:hover, img.paper:hover, img.scissor:hover{
+    height: 70px;
+    width: 70px;
+    padding: 20px;
+}
+
+.section-two{
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div.vs{
+    font-size: 100px;
+    font-weight: 900px;
+    color: red;
+    font-family: Open Sans;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -120px;
+}
+
+div.results{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding: 10px 25px;
+    height: 80px;
+    width: 150px;
+    color: white;
+    font-family: Bebas neue;
+    background-color: rgb(79, 173, 79);
+    transform: rotate(-30grad);
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+}
+
+
+.section-three{
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.info-com{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+img.rock-com, img.paper-com, img.scissor-com{
+    height: 60px;
+    width: 60px;
+    padding: 20px;
+}
+
+div.container-refresh{
+    display: flex;
+    justify-content: center;
+}
+
+img.refresh{
+    width: 40px;
+    height: 40px;
+}
+
+img.refresh:hover{
+    transform: rotate(-90grad);
+    transform: rotate(90grad);
+}
